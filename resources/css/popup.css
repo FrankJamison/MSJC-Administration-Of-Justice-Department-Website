@@ -1,0 +1,146 @@
+/*********************************************/
+/* Popup Window Default 1024x786 Stylesheet  */
+/* Created by Frank Jamison                  */
+/* August 17, 2006                           */
+/*********************************************/
+
+
+/* PAGE STYLES */
+body {
+    background-color: white;
+    background-image: url(../images/background_pageInfo.jpg);
+    background-position: center 50px;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10.5pt;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #000099;
+}
+
+a:active {
+    color: #666666;
+}
+
+a:hover {
+    color: #FF6600;
+}
+
+p {
+    text-align: justify;
+}
+
+#header {
+    background-color: #141427;
+}
+
+/* Flash/Ruffle popup header container: ensure it never collapses */
+#popupFlashHead {
+    height: 50px;
+    width: 400px;
+    overflow: hidden;
+}
+
+#popupFlashHeadLegacy {
+    height: 50px;
+}
+
+.clearit {
+    clear: both;
+    height: 0;
+    line-height: 0.0;
+    font-size: 0;
+}
+
+
+/* CONTENT STYLES */
+
+#content {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    width: 460px;
+}
+
+#courseNumbr {
+    float: left;
+    text-align: left;
+    width: 115px;
+}
+
+#courseTitle {
+    float: left;
+    text-align: center;
+    width: 227px;
+}
+
+#courseUnits {
+    float: left;
+    text-align: right;
+    width: 115px;
+}
+
+.smalltitle {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #336699;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* FOOTER STYLES */
+
+#footer {
+    overflow: auto;
+    padding: 0px;
+    width: 100%;
+}
+
+#close,
+#print {
+    float: left;
+    width: 50%;
+}
+
+.button-popups {
+    background-color: #2D2D4A;
+    background-image: url(../images/background_button.gif);
+    border: 0px solid white;
+    color: #CFCFE0;
+    cursor: hand;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    height: 23px;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+
+.buttonon-popups {
+    background-color: #C0C0C0;
+    background-image: url(../images/background_buttonHover.gif);
+    border: 0px solid white;
+    color: black;
+    cursor: hand;
+    height: 23px;
+    width: 100%;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+}

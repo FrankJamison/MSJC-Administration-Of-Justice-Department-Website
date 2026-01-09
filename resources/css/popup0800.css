@@ -1,0 +1,21 @@
+/**********************************************/
+/* Popup Window 800X600 Resolution Stylesheet */
+/* Created by Frank Jamison                   */
+/* August 17, 2006                            */
+/**********************************************/
+
+
+/* PAGE STYLES */
+
+body { font-size:8.5pt; }
+
+
+/* CONTENT STYLES */
+
+#content { width: 360px; }
+
+#courseNumbr { width: 85px; }
+
+#courseTitle { width: 187px; }
+
+#courseUnits { width: 85px; 

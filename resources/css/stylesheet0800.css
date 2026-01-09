@@ -1,0 +1,142 @@
+/*********************************************/
+/* Website 800x600 Resolution Stylesheet     */
+/* Created by Frank Jamison                  */
+/* August 17, 2006                           */
+/*********************************************/
+
+
+/* PAGE STYLES */
+
+	body {
+		font-size: 8.5pt;
+		min-width: 779px;
+		_width: 779px;
+	}
+	
+
+/* HEADER STYLES */
+
+	#header { min-width: 779px; }
+	
+
+/* MENU STYLES */
+
+	.topMenuLink a { padding: 5px 16px 6px 10px; } /* Height */
+	
+	.subMenuLink a {
+		font-size: 1.1em;
+		padding: 4px 5px; /* Height */
+	}
+
+	#topMenu1 { width: 80px; }
+	
+	#topMenu1 a { width:53px }
+
+	#topMenu2 { width: 155px; }
+	
+	#topMenu2 a { width:128px; }
+
+	#topMenu3 { width: 145px; }
+	
+	#topMenu3 a { width:118px; }
+
+	#topMenu4 { width: 110px; }
+	
+	#topMenu4 a { width:83px; }
+
+	#topMenu5 { width: 90px; }
+	
+	#topMenu5 a { width:63px; }
+
+	#subMenu2, #subMenu2 .subMenuLink { width: 156px; }
+	
+	#subMenu2 .subMenuLink a { width: 144px; }
+
+	#subMenu3, #subMenu3 .subMenuLink { width: 146px; }
+	
+	#subMenu3 .subMenuLink a { width: 134px; }
+
+	#subMenu4, #subMenu4 .subMenuLink { width: 111px; }
+	
+	#subMenu4 .subMenuLink a { width: 99px; }
+
+
+/* CONTENT STYLES */
+
+	#content { min-width: 779px; }
+	
+
+/* SIDEBAR STYLES */
+
+	#photo01 { margin: 0px 0px 40px 0px; }
+
+	#photo02, #photo03, #photo04 { margin-bottom: 35px; }
+
+	#photo03 { display: none !important; }
+
+	#photo05 { margin: 0px 0px 20px 0px; }
+	
+	#catalog { margin-bottom: 20px; height: 175px; }
+	
+	#photo06 { margin: 0px 0px 40px 0px; }
+	
+	#photo07 { margin-bottom: 40px; }
+
+	#photo08 { margin: 0px 0px 40px 0px; }
+	
+	#photo09 { margin-bottom: 40px; }
+
+	#photo10 { margin: 25px 0px 65px 0px; }
+	
+	#photo11, #photo12 { margin-bottom: 65px; }
+	
+	#photo11 { display: none !important; }
+	
+	#photo13 { margin: 0px 0px 40px 0px; }
+	
+	#photo14 { margin: 10px 0px 50px 0px; }
+	
+	#photo15, #photo16 { margin-bottom: 50px; }
+	
+	#photo15 { display: none !important; }
+	
+	#photo17 { margin: 10px 0px 50px 0px; }
+	
+	#photo18, #photo19, #photo20, #photo21 { margin-bottom: 50px; }
+	
+	#photo21 { display: none !important; }
+	
+	#photo22 { margin: 25px 0px 65px 0px; }
+	
+
+/* PAGE INFO STYLES */
+
+	#address, #email { width: 550px; }
+	
+	#links, .careers { width: 525px; }
+	
+	.courseList { width: 490px; }
+	
+	.courseNum { width: 87px; }
+	
+	.courseTitle { width: 340px; }
+	
+	.courseUnits { width: 63px; }
+	
+	.col1 { width: 167px; }
+	
+	.col2 { width: 190px; }
+	
+	.col3 { width: 168px; }
+	
+/* FOOTER STYLES */
+
+	#footer {
+		font-size: 0.8em;
+		min-width: 779px;
+	}
+	
+	#footer #copyright { padding-top: 10px; }
+	
+	#validation img { padding-top: 0px; }
+

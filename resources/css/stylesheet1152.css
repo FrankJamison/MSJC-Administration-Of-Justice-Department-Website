@@ -1,0 +1,134 @@
+/*********************************************/
+/* Website 1152x864 Resolution Stylesheet    */
+/* Created by Frank Jamison                  */
+/* August 17, 2006                           */
+/*********************************************/
+
+
+/* PAGE STYLES */
+
+	body {
+		font-size: 12pt;
+		min-width: 1131px;
+		_width: 1131px;
+	}
+	
+
+/* HEADER STYLES */
+
+	#header { min-width: 1131px; }
+	
+
+/* MENU STYLES */
+
+	.topMenuLink a {
+		padding: 3px 16px 3px 10px; /* Height */
+	}
+	
+	.subMenuLink a { padding: 4px 7px; } /* Height */
+
+	#topMenu1 { width: 150px; }/*150*/
+	
+	#topMenu1 a { width:123px }
+
+	#topMenu2 { width: 225px; }/*225*/
+	
+	#topMenu2 a { width:198px }
+
+	#topMenu3 { width: 225px; }/*225*/
+	
+	#topMenu3 a { width:198px }
+
+	#topMenu4 { width: 175px; }/*175*/
+	
+	#topMenu4 a { width:148px }
+
+	#topMenu5 { width: 150px; }/*150*/
+	
+	#topMenu5 a { width:123px }
+
+	#subMenu2, #subMenu2 .subMenuLink { width:226px; }/*226*/
+	
+	#subMenu2 .subMenuLink a { width: 210px; }
+
+	#subMenu3, #subMenu3 .subMenuLink { width:226px; }/*226*/
+	
+	#subMenu3 .subMenuLink a { width: 210px; }
+
+	#subMenu4, #subMenu4 .subMenuLink { width:176px; }/*176*/
+	
+	#subMenu4 .subMenuLink a { width: 160px; }
+
+
+/* CONTENT STYLES */
+
+	#content { min-width: 1131px;}
+	
+
+/* SIDEBAR STYLES */
+
+	#photo01 { margin: 25px 0px 65px 0px; }
+
+	#photo02, #photo03 { margin-bottom: 65px; }
+	
+	#photo04 { margin-bottom: 65px; }
+
+	#photo05 { margin: 20px 0px 60px 0px; }
+	
+	#catalog { margin-bottom: 60px; }
+	
+	#photo06 { margin: 20px 0px 70px 0px; }
+	
+	#photo07 { margin-bottom: 70px; }
+
+	#photo08 { margin: 20px 0px 70px 0px; }
+	
+	#photo09 { margin-bottom: 70px; }
+
+	#photo10 { margin: 20px 0px 60px 0px; }
+	
+	#photo11, #photo12 { margin-bottom: 60px; }
+	
+	#photo13 { margin: 50px 0px 87px 0px; }
+	
+	#photo14 { margin: 10px 0px 50px 0px; }
+	
+	#photo15, #photo16 { margin-bottom: 50px; }
+	
+	#photo17 { margin: 55px 0px 95px 0px; }
+	
+	#photo18, #photo19, #photo20, #photo21 { margin-bottom: 95px; }
+	
+	#photo21 { margin-bottom: 0px; }
+	
+	#photo22 { margin: 75px 0px 115px 0px; }
+	
+
+/* PAGE INFO STYLES */
+
+	#address, #email { width: 750px; }
+	
+	.careers, .courseList { width: 750px; }
+	
+	.courseNum { width: 135px; }
+	
+	.courseTitle { width: 480px; }
+	
+	.courseUnits { width: 135px; }
+	
+	.col1 { width: 207px; }
+	
+	.col2 { width: 235px; }
+	
+	.col3 { width: 208px; }
+	
+
+/* FOOTER STYLES */
+
+	#footer {
+		font-size: 0.8em;
+		min-width: 1131px;
+	}
+	
+	#footer #copyright { padding-top: 10px; }
+	

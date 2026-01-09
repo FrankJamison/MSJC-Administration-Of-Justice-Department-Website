@@ -1,0 +1,151 @@
+/*********************************************/
+/* Website 1280x1024 Resolution Stylesheet   */
+/* Created by Frank Jamison                  */
+/* August 17, 2006                           */
+/*********************************************/
+
+
+/* PAGE STYLES */
+
+	body {
+		font-size: 14pt;
+		min-width: 1259px;
+		_width: auto;
+	}
+	
+	#header { min-width: 1259px; }
+	
+
+/* DATE STYLES */
+
+	#flashHead, embed, object { height: 60px; }
+	
+	#date { top: 172px; }
+
+
+/* MENU STYLES */
+
+	#jamExpressMenu { height:30px; }
+	
+	.topMenuLink a {
+		font-size: 1em;
+		padding: 5px 16px 7px 10px;
+	}
+
+	#topMenu1 { width: 180px; }/*150*/
+	
+	#topMenu1 a { width:153px }
+
+	#topMenu2 { width: 250px; }/*225*/
+	
+	#topMenu2 a { width:223px }
+
+	#topMenu3 { width: 250px; }/*225*/
+	
+	#topMenu3 a { width:223px }
+
+	#topMenu4 { width: 200px; }/*175*/
+	
+	#topMenu4 a { width:173px }
+
+	#topMenu5 { width: 180px; }/*150*/
+	
+	#topMenu5 a { width:153px }
+
+	#subMenu2, #subMenu2 .subMenuLink { width:249px; }/*226*/
+	
+	#subMenu2 .subMenuLink a { width: 233px; }
+
+	#subMenu3, #subMenu3 .subMenuLink { width:249px; }/*226*/
+	
+	#subMenu3 .subMenuLink a { width: 233px; }
+
+	#subMenu4, #subMenu4 .subMenuLink { width:199px; }/*176*/
+	
+	#subMenu4 .subMenuLink a { width: 183px; }
+
+	.subMenu { font-size: .95em; }
+
+	.subMenuLink a  {
+		font-weight: normal;
+		padding: 8px;
+	}
+
+/* CONTENT STYLES */
+
+	#content { min-width: 1259px; }
+
+	#photo01 { margin: 25px 0px 65px 0px; }
+
+	#photo02, #photo03 { margin-bottom: 65px; }
+	
+	#photo03 { display: inline !important; }
+	
+	#photo04 { margin-bottom: 65px; }
+
+	#photo05 { margin: 40px 0px 80px 0px; }
+	
+	#photo05 { height: 200px; }
+
+	#catalog { height: 200px; margin-bottom: 40px; }
+	
+	#photo06 { margin: 80px 0px 90px 0px; }
+
+	#photo06, #photo07 { height: 112px; width: 155px; }
+
+	#photo08 { margin: 80px 0px 90px 0px; }
+
+	#photo08, #photo09 { height: 112px; width: 155px; }
+
+
+	#photo10 { margin: 40px 0px 80px 0px; height:125px; }
+	
+	#photo11, #photo12 { margin-bottom: 80px; height:125px; }
+	
+	#photo13 { margin: 50px 0px 87px 0px; height: 230px}
+	
+	#photo14 { margin: 30px 0px 70px 0px; height: 125px }
+	
+	#photo15, #photo16 { margin-bottom: 70px; height: 125px }
+	
+	#photo17 { margin: 110px 0px 140px 0px; height:225px }
+	
+	#photo18, #photo19, #photo20, #photo21 { margin-bottom: 140px; height:225px; }
+	
+	#photo21 { margin-bottom: 0px; }
+	
+	#photo22 { margin-top: 135px; }
+	
+
+/* PAGE INFO STYLES */
+
+	.courseList {
+		margin: 50px auto;
+		width: 900px; 
+	}
+	
+	.careers, #links { width: 810px; } 
+	
+	.col1 { width: 280px; }
+	
+	.col2 { width: 280px; }
+	
+	.col3 { width: 250px; }
+	
+	.courseNum { width: 150px; }
+	
+	.courseTitle { width: 600px; }
+	
+	.courseUnits { width: 150px; }
+	
+	#address, #email { width: 900px; }
+	
+	#footer {
+		font-size: 0.7em;
+		min-width: 1003px;
+	}
+	
+	#footer #validation img {
+		display: inline;
+		padding-top: 5px;
+	}

@@ -1,0 +1,21 @@
+/***********************************************/
+/* Popup Window 1152x864 Resolution Stylesheet */
+/* Created by Frank Jamison                    */
+/* August 17, 2006                             */
+/***********************************************/
+
+
+/* PAGE STYLES */
+
+body { font-size:12pt; }
+
+
+/* CONTENT STYLES */
+
+#content { width: 520px; }
+
+#courseNumbr { width: 120px; }
+
+#courseTitle { width: 277px; }
+
+#courseUnits { width: 120px; }

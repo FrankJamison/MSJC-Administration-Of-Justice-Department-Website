@@ -1,0 +1,132 @@
+/*********************************************/
+/* Website 1600x1200 Resolution Stylesheet   */
+/* Created by Frank Jamison                  */
+/* August 17, 2006                           */
+/*********************************************/
+
+/*
+	This file was referenced by pages as an alternate stylesheet
+	(title: "1600 x 1200") but was missing. To preserve the
+	original layout intent without introducing new UX, this uses
+	the 1280x1024 overrides as a safe baseline.
+*/
+
+/* PAGE STYLES */
+
+body {
+    font-size: 14pt;
+    min-width: 1259px;
+    _width: auto;
+}
+
+#header {
+    min-width: 1259px;
+}
+
+
+/* DATE STYLES */
+
+#flashHead,
+embed,
+object {
+    height: 60px;
+}
+
+#date {
+    top: 172px;
+}
+
+
+/* MENU STYLES */
+
+#jamExpressMenu {
+    height: 30px;
+}
+
+.topMenuLink a {
+    font-size: 1em;
+    padding: 5px 16px 7px 10px;
+}
+
+#topMenu1 {
+    width: 180px;
+}
+
+#topMenu1 a {
+    width: 153px
+}
+
+#topMenu2 {
+    width: 250px;
+}
+
+#topMenu2 a {
+    width: 223px
+}
+
+#topMenu3 {
+    width: 250px;
+}
+
+#topMenu3 a {
+    width: 223px
+}
+
+#topMenu4 {
+    width: 200px;
+}
+
+#topMenu4 a {
+    width: 173px
+}
+
+#topMenu5 {
+    width: 180px;
+}
+
+#topMenu5 a {
+    width: 153px
+}
+
+#subMenu2,
+#subMenu2 .subMenuLink {
+    width: 249px;
+}
+
+#subMenu2 .subMenuLink a {
+    width: 233px;
+}
+
+#subMenu3,
+#subMenu3 .subMenuLink {
+    width: 249px;
+}
+
+#subMenu3 .subMenuLink a {
+    width: 233px;
+}
+
+#subMenu4,
+#subMenu4 .subMenuLink {
+    width: 199px;
+}
+
+#subMenu4 .subMenuLink a {
+    width: 183px;
+}
+
+.subMenu {
+    font-size: .95em;
+}
+
+.subMenuLink a {
+    font-weight: normal;
+    padding: 8px;
+}
+
+
+/* CONTENT STYLES */
+
+#content {
+    min-width: 1259px;
+}

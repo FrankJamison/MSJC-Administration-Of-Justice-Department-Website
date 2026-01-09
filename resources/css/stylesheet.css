@@ -1,0 +1,357 @@
+/*********************************************/
+/* Website Default 1024x786 Stylesheet       */
+/* Created by Frank Jamison                  */
+/* August 17, 2006                           */
+/*********************************************/
+
+
+/* PAGE STYLES */
+
+html {
+    scrollbar-base-color: #2D2D4A;
+}
+
+body {
+    background-color: white;
+    background-image: url(../images/background_page.gif);
+    background-repeat: repeat-y;
+    color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10.5pt;
+    margin: 0px;
+    min-width: 1003px;
+    padding: 0px;
+    _width: 1003px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link {
+    color: #000099;
+}
+
+a:hover {
+    color: #FF6600;
+}
+
+a img {
+    border: none;
+}
+
+blockquote,
+p {
+    text-align: justify;
+}
+
+p.indent {
+    text-indent: 2em;
+}
+
+img {
+    display: block;
+}
+
+sup {
+    font-size: 0.7em;
+}
+
+
+/* HEADER STYLES */
+
+#header {
+    background-color: #141427;
+    min-width: 1003px;
+    width: 100%;
+}
+
+#topImage {
+    background-image: url(../images/background_topImage.jpg);
+    height: 78px;
+}
+
+#corner {
+    background-image: url(../images/background_corner.gif);
+    width: 100%;
+}
+
+/* Flash/Ruffle header container: ensure it never collapses in the default layout */
+#flashHead {
+    height: 60px;
+    width: 750px;
+    overflow: hidden;
+}
+
+#flashHeadLegacy {
+    height: 60px;
+}
+
+
+/* DATE STYLES */
+
+#date {
+    color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: 174px;
+    width: 300px;
+}
+
+
+/* CONTENT STYLES */
+
+#content {
+    /*background-color: red;*/
+    min-width: 1003px;
+    width: 100%;
+}
+
+
+/* SIDEBAR STYLES */
+
+#sidebar {
+    /*background-color: green;*/
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 188px;
+}
+
+#sidebar img {
+    border-collapse: collapse;
+    border: 1px solid #9291AA;
+    display: inline;
+}
+
+#photo01 {
+    margin: 15px 0px 55px 0px;
+}
+
+#photo02,
+#photo03,
+#photo04 {
+    margin-bottom: 55px;
+}
+
+#photo03 {
+    display: none !important;
+}
+
+#photo05 {
+    margin: 5px 0px 45px 0px;
+}
+
+#catalog {
+    margin-bottom: 45px;
+}
+
+#photo06 {
+    margin: 15px 0px 55px 0px;
+}
+
+#photo07 {
+    margin-bottom: 55px;
+}
+
+#photo08 {
+    margin: 15px 0px 55px 0px;
+}
+
+#photo09 {
+    margin-bottom: 55px;
+}
+
+#photo10 {
+    margin: 10px 0px 50px 0px;
+}
+
+#photo11,
+#photo12 {
+    margin-bottom: 50px;
+}
+
+#photo13 {
+    margin: 20px 0px 60px 0px;
+}
+
+#photo14 {
+    margin: 0px 0px 40px 0px;
+}
+
+#photo15,
+#photo16 {
+    margin-bottom: 40px;
+}
+
+#photo17 {
+    margin: 15px 0px 55px 0px;
+}
+
+#photo18,
+#photo19,
+#photo20,
+#photo21 {
+    margin-bottom: 55px;
+}
+
+#photo22 {
+    margin: 60px 0px 100px 0px;
+}
+
+
+/* PAGE INFO STYLES */
+
+#pageInfo {
+    /*background-color: blue;*/
+    /*background-image: url(../images/background_pageInfo.jpg);*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-left: 215px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#links,
+.careers {
+    margin: 0px auto;
+    width: 675px;
+}
+
+.courseList {
+    margin: 0px auto;
+    width: 650px;
+}
+
+.courseNum {
+    float: left;
+    text-align: left;
+    width: 100px;
+}
+
+.courseTitle {
+    float: left;
+    text-align: left;
+    width: 460px;
+}
+
+.courseUnits {
+    float: left;
+    text-align: right;
+    width: 90px;
+}
+
+.col1 {
+    float: left;
+    text-align: left;
+    width: 207px;
+}
+
+.col2 {
+    float: left;
+    text-align: left;
+    width: 235px;
+}
+
+.col3 {
+    float: left;
+    text-align: left;
+    width: 208px;
+}
+
+.bigTitle {
+    color: #141427;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.title {
+    color: #141427;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+
+.subtitle {
+    color: #336699;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.smalltitle {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.phonetitle {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.newCourse {
+    display: inline;
+}
+
+.bigLink {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#address,
+#email {
+    margin: auto;
+    width: 650px;
+}
+
+.campus {
+    float: left;
+    width: 50%;
+}
+
+/* FOOTER STYLES */
+
+#footer {
+    color: #333333;
+    clear: both;
+    font-size: 0.7em;
+    min-width: 1003px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    padding: 0px;
+    width: 100%;
+}
+
+#footer div {
+    background-image: url(../images/background_footer.gif);
+    padding: 5px;
+}
+
+
+/* COPYRIGHT STYLES */
+
+#footer #copyright {
+    float: left;
+    padding-top: 12px;
+    width: 50%;
+}
+
+/* W3C VALIDATION STYLES */
+
+#validation {
+    text-align: right;
+}
+
+#validation img {
+    display: inline;
+    padding-top: 5px;
+}
