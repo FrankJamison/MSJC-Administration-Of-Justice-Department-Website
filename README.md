@@ -1,4 +1,4 @@
-# 2006 MSJC Administration of Justice (Portfolio Restoration)
+# MSJC Administration of Justice Department
 
 This repo is a restored snapshot of a 2006-era Mt. San Jacinto College “Administration of Justice and Corrections” site.
 
@@ -6,12 +6,25 @@ The project is intentionally **static** and **legacy-accurate**: pages are XHTML
 
 It also preserves an early, pre-standards take on “responsive design”: instead of modern CSS media queries (which weren’t widely used yet), the site uses JavaScript to detect browser/screen width at runtime and switch between resolution-targeted stylesheets.
 
-## How to preview
+## URLs
+
+- Live preview (deployed): https://adminofjustice.fcjamison.com/
+- Local dev (VS Code task default): http://msjcadministrationofjustice.localhost/
+  - In this workspace, the **Open in Browser** task is typically generated/managed by the local setup script (it may rewrite `.vscode/tasks.json`). If your local vhost uses a different hostname, update `.vscode/tasks.json` → task **Open in Browser** → the second entry in `args`.
+
+## How to preview locally
 
 This site is meant to be served by a local web server (not opened directly as `file://`) so relative paths, script loading, and the Flash emulator (Ruffle) work consistently.
 
-- If you’re using the included VS Code task, run **“Open in Browser”**.
-- Otherwise, serve this folder with your local web server and open `index.html`.
+- If you’re using the included VS Code task, run **“Open in Browser”** (it opens the configured `*.localhost` URL).
+- Otherwise, serve this folder with your local web server and open `/index.html`.
+
+### Quick option (no virtual host)
+
+If you just want a quick static server without configuring `*.localhost`, run from the repo root:
+
+- `python -m http.server 8000`
+- Open http://localhost:8000/
 
 ## Project layout
 
